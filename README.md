@@ -1,6 +1,4 @@
 # imit_c_string
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-
 Implementation of the string.h library with additions.
 
 ### string.h types
@@ -9,7 +7,6 @@ Macro imit_size_t and imit_NULL imitate string.h types
 | No. | Variable | Description |
 | ------ | ------ | ------ |
 | 1 | size_t | This is the unsigned integral type and is the result of the sizeof keyword. |	
-| ------ | ------ | ------ |
 | 2 | NULL | This macro is the value of a null pointer constant. |
 
 ### string.h Functions
@@ -108,7 +105,6 @@ where:
 To build a static library named *imit_string.a* (with the header file imit_string.h)
  ```
  make imit_string.a
-
  ```
 
  ## Test
@@ -117,12 +113,12 @@ A full coverage of the library's functions by unit-tests using the Check library
 To install Check(Debian)
  ```
 sudo apt-get install check
-
  ```
 Unit-tests check the results of  implementation by comparing them with the implementation of the standard string.h library
 The gcov_report target generate a gcov report in the form of an html page.
  ```
  make gcov_report
-
  ```
 Unit tests cover 98% of function's code (checked using gcov)
+![image](https://github.com/lysalexy/imit-c-string/assets/78423459/daad7fec-4e9f-47d7-a3e9-5e40c177c310)
+
