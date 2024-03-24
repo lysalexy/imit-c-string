@@ -104,14 +104,14 @@ where:
 | 3 | void *insert(const char *src, const char *str, size_t start_index) | Returns a new string in which a specified string (str) is inserted at a specified index position (start_index) in the given string (src). In case of any error, return NULL. |
 | 4 | void *trim(const char *src, const char *trim_chars) | Returns a new string in which all leading and trailing occurrences of a set of specified characters (trim_chars) from the given string (src) are removed. In case of any error, return NULL. |
 
- ##Build
+ ## Build
 To build a static library named *imit_string.a* (with the header file imit_string.h)
  ```
  make imit_string.a
 
  ```
 
- ##Test
+ ## Test
 
 A full coverage of the library's functions by unit-tests using the Check library.
 To install Check(Debian)
